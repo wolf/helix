@@ -127,6 +127,8 @@ pub struct LanguageConfiguration {
 
     /// If set, overrides `editor.path-completion`.
     pub path_completion: Option<bool>,
+    /// If set, overrides `editor.word-completion`.
+    pub word_completion: Option<bool>,
 
     #[serde(default)]
     pub diagnostic_severity: Severity,
